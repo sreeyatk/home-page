@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1 {
+            font-weight: 900;
+        }
+
+        .second {
+            background: #FEAC5E;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        .icon {
+            font-size: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary" href="#"><i class="fa-brands fa-shopify"></i>Super Design</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end mx-2" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div
+        class="container-fluid bg-light d-flex justify-content-evenly align-items-center p-3 flex-md-column-reverse flex-sm-column flex-lg-row flex-column-reverse">
+        <div class="pinkshoe">
+            <img src="pinkshoe.png" alt="" width="400px">
+        </div>
+        <div class="container">
+            <div class="paragraph">
+                <h1 class="text-danger">SUPER MAX SHOE</h1>
+                <h2 class="text-primary"><i class="fa-solid fa-person-running"></i> KEEP RUNNING...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil reiciendis nobis voluptas eum officiis
+                    alias!</p>
+            </div>
+            <button type="button" class="btn btn-success"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+        </div>
+    </div>
+
+    <div
+        class="container-fluid second d-flex justify-content-evenly align-items-center gap-4 flex-column flex-lg-row flex-md-column flex-sm-column">
+        <div class="perfect">
+            <div class="girl bg-light rounded-1 shadow-lg p-3 d-flex my-3">
+                <i class="fa-solid fa-store icon"></i>
+                <div class="para mx-2">
+                    <h2>Find the Perfect Fit</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="girl bg-light rounded-2 shadow-lg p-3 d-flex my-3">
+                <i class="fa-regular fa-credit-card icon"></i>
+                <div class="para mx-2">
+                    <h2>Easy & Secure Payment</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="girl bg-light rounded-2 shadow-lg p-3 d-flex my-3">
+                <i class="fa-solid fa-arrow-right-arrow-left icon"></i>
+                <div class="para mx-2">
+                    <h2>Free Exchange</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="shoppinggirl">
+            <img src="shoppinggirl.png" alt="" width="400px">
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <h2 class="text-info px-2 border-start border-5 border-danger">SHOE SIZE GUIDE</h2>
+        <table class="table table-striped table-info m-6 shadow-md">
+            <tr>
+                <th>US</th>
+                <th>UK</th>
+                <th>EU</th>
+                <th>CM</th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>3</td>
+                <td>37</td>
+                <td>22.9</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>4</td>
+                <td>38</td>
+                <td>23.8</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>5</td>
+                <td>39</td>
+                <td>24.8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>3</td>
+                <td>37</td>
+                <td>22.6</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3 class="text-dark d-flex justify-content-center align-items-center p-4"><u>OUR TEAM</u></h3>
+    <div class="d-flex justify-content-evenly align-items-center flex-column flex-lg-row flex-md-column flex-sm-column">
+        <div class="card shadow-lg m-3" style="width: 18rem;">
+            <div class="bg-primary">
+                <img src="face.avif" class="card-img-top rounded-circle" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"><b>Sreeya</b></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+        </div>
+
+        <div class="card shadow-lg m-3" style="width: 18rem;">
+            <div class="bg-primary">
+                <img src="face.avif" class="card-img-top rounded-circle" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"><b>Sreeya</b></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+        </div>
+
+        <div class="card shadow-lg m-3" style="width: 18rem;">
+            <div class="bg-primary">
+                <img src="face.avif" class="card-img-top rounded-circle" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"><b>Sreeya</b></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 my-3 bg-light shadow-lg">
+        <h4 class="text-center">Subscribe to our newsletter</h4>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your email..." aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <span class="input-group-text bg-info" id="basic-addon2">Subscribe</span>
+        </div>
+    </div>
+
+    <div class="container-fluid second fw-50">
+        <h5 class="text-center p-5">SNIST FS&AA|ALL RIGHTS RESERVED</h5>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
